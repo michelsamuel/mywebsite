@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    color: purple; 
+}
+a:hover{
+    color:#34e7e4;
+}
+body{
+    height: 100vh;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: #fff;
+}
+span{
+    color: #34e7e4;
+    cursor: pointer;
+}
+header{
+    position: relative;
+    background-color: #34e7e4;
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo{
+    font-size: 4rem;
+    font-family:fantasy;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    padding: 1rem 0 1rem 2.2rem;
+    cursor: pointer;
+    color: black;
+    transition: all .30s ease;
+}
+.logo:hover{
+    color: #fff;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.menu a{
+        padding: 1rem 2.2rem;
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 500;
+        transition: all .30s ease;
+}
+.menu a:hover{
+    color: black;
+}
+.main{
+    display: flex;
+    flex: 1;
+    margin-top: 120px;
+}
+.left{
+    padding: 3em 0 3em 0;
+    flex: 1 1 100px;
+}
+.left p{
+    margin: 2rem;
+}
+.right{
+padding: 3em 0 3em 0;
+flex: 1 1 100px;
+}
+button{
+    padding: 1rem 1.4rem;
+    margin: 1rem;
+    border: 2px solid white;
+    border-radius: 12px;
+    background-color: #34e7e4;
+    transition: all .30s ease-in-out;
+}
+button:hover{
+    background-color: transparent;
+    transform: scale(1.4);
+    border: 4px solid #34e7e4;
+}
+.lets-talk:hover{
+    transform: translateY(-15px);
+}
+.see-more:hover{
+    transform: translateY(15px);
+}
+button a{
+    color: #fff;
+    font-size: 20px;
+}
+.my-photo{
+    width: 100%;
+    height: auto;
+}
+footer{
+    background-color: #505050;
+    padding: 1em 0 1em 0;
+}
+@media all and (max-width:1270px){
+    .nav-btn{
+    display: none;
+    }
+}
+@media all and (max-width: 1040px){
+    .main{
+        flex-direction: column;
+    }
+    .span{
+        display: none;
+    }
+}
+@media all and (max-width:850px){
+    .menu a{
+        font-size: smaller;
+    }
+}
+@media all and (max-width:730px){
+    .menu a{
+        display: none;
+    }
+}
+@media all and (max-width: 550px){
+    .main{
+        flex-direction: column;
+    }
+    .span{
+        display: none;
+    }
+    main{
+        padding: 5em 0 5em 0;
+    }
+    .menu a{
+        display: none;
+    }
+}
+@media all and (max-width:515px){
+    .hire-me{
+        display: none;
+    }
+}
+@media all and (max-width:390px){
+    .no{
+        display: none;
+    }
+    .btn{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 4rem;
+    }
+}
+@media all and (min-height:450px){
+    header{
+        position: fixed;
+    }
+}

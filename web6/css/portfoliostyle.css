@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive, 'Roboto', sans-serif;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100vh;
+}
+.hero{
+    height: 100vh;
+    width:100% ;
+    background-image: url(../img/PSX_20240309_114744.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2.8rem;
+    padding-left: 8% ;
+    padding-right: 8%;
+}
+.logo{
+    color: black;
+    font-size: 2.19rem;
+    letter-spacing: 0.063rem;
+    cursor: pointer;
+}
+span{
+    color: #f9004d;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0.63rem 1.56rem;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transform: .4s;
+}
+.btn{
+    background-color: #f9004d;
+    color: #ededed;
+    text-decoration: none;
+    border: 0.15rem solid white;
+    font-weight: bold;
+    padding: 0.63rem 1.56rem;
+    border-radius: 1.87rem;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50% ;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: black;
+    margin: 0 1.25rem 0 1.25rem;
+    font-size: 4.69rem;
+}
+h3{
+    color: black;
+    font-size: 1.56rem;
+    margin-bottom: 3.18rem;
+}
+h4{
+    color: black;
+    letter-spacing: 0.13rem;
+    font-size: 1.3rem;
+}
+.newslatter form{
+    width: 24.3rem;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 0.87rem 8.1rem 0.87rem 0.937rem;
+    border: 0.15rem solid #f9004d;
+    outline: none;
+    border-radius: 1.88rem;
+}
+.newslatter form input:last-child, button{
+    outline: none;
+    padding: 0.63rem  1.88rem;
+    border: 0.15rem solid #ededed;
+    border-radius: 1.87rem ;
+    color: #ededed;
+    background-color: #f9004d;
+    margin-top: 1.2rem;
+    cursor: pointer;
+}
+.about{
+    width: 100%;
+    padding: 6.25rem 0;
+    background-color: #646464;
+}
+.about img{
+    height: auto;
+    width: 26.89rem;
+}
+.about-text{
+    width: 34.38rem;
+}
+.main{
+    width: 70.63rem;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text  h2{
+    color: #ededed;
+    font-size:4.69rem ;
+    text-transform: capitalize;
+    margin-bottom: 1.7rem ;
+}
+.about-text  h5{
+    color: #ededed;
+    letter-spacing: 0.12rem;
+    font-size: 1.38rem;
+    margin-bottom: 1.2rem;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: #fcfc ;
+    letter-spacing: 0.063rem;
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+    margin-bottom: 2.88rem ;
+}
